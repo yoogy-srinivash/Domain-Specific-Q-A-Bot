@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# Virtual environments
+venv/
+.env/
+.env.local/
+
+# Chroma / Vector DB
+chroma_store/
+chroma/
+*.bin
+
+# Ollama
+.ollama/
+
+# Gradio
+.gradio/
+gradio_cached_examples/
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data (optional – keep PDFs private)
+data/docs/*.pdf
+
+# Uncomment below IF you want to track PDFs
+# !data/docs/
+
+# Reports / outputs
+*.csv
+*.xlsx
+*.json
+eval_results.txt
